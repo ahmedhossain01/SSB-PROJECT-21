@@ -1,0 +1,123 @@
+/*font family start*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+/*font family end*/
+
+/*common start*/
+:root{
+	--pop: "Poppins", sans-serif;
+	-rob: "Roboto", sans-serif;
+
+	--green: #21B573;
+	--red: #FD511A;
+	--black: #000000;
+}
+body{
+	font-family: var(--pop);
+	font-size: 16px;
+	font-weight: 400;
+	color: var(--black);
+}
+/*common end*/
+/*header start*/
+header{
+	background-color: #F0FFF0;
+	padding: 15px 0;
+}
+.m_nav{}
+.logo{}
+.menu{}
+.menu ul li a{
+    color: var(--black) !important;
+    padding: 0 15px !important;
+}
+.menu ul li a:hover{
+	color: var(--red) !important;
+}
+.btn_cm{
+	background-color: var(--green);
+	font-family: Roboto;
+	color: white;
+	line-height: 18.75px;
+	border: none;
+	border-radius: 33px;
+	transition: .33s;
+}
+.btn_cm:hover{
+	background-color: var(--red);
+	color: white;
+}
+.btn_cm:active{
+	background-color: var(--red) !important;
+	color: white !important;
+}
+.btn_sin{
+	margin-left: 10px;
+	width: 104px;
+	height: 43px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/*header end*/
+
+/*banner start*/
+.banner{
+	background-color: #F0FFF0;
+	padding-bottom: 65px;
+}
+.b_text{}
+.b_p1{
+	color: var(--red);
+}
+.b_h1{
+	margin: 10px 100px 20px 0;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 70px;
+}
+.b_h1 span{
+	color: var(--green);
+}
+.b_p2{
+	line-height: 36px; 
+}
+.b_get{
+	margin-top: 15px;
+	padding: 12px 16px;
+}
+.b_img{
+
+}
+/*banner end*/
+
+/*feature start*/
+.feature{}
+.c_p{
+	padding-bottom: 100px;
+}
+.sf_item{
+	margin: 42px 0 0;
+	padding: 55px 0 50px;
+	background: #F0FFF0;
+	border-radius: 10px;
+	transition: .33s linear;
+}
+.sf_item:hover{
+	background-color: #fff;
+	box-shadow: 0px 20px 40px 0px #0000001A;
+
+}
+.sf_img{
+	width: 66px; 
+	height: 85px;
+}
+.sf_h2{
+	margin: 22px 0 0;
+	font-size: 24px;
+	color: var(--black);
+	font-weight: 500;
+	line-height: 36px;
+}
+.sf_p{}
+/*feature end*/
